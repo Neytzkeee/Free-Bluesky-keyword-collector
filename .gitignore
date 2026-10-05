@@ -1,0 +1,25 @@
+# Credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# PyCharm
+.idea/
+
+# Collected data
+bluesky_posts*.csv
+bluesky_comentarios*.csv
+bluesky_estado.json
+*.csv
+
+# Temporary files
+*.tmp
+Thumbs.db
+.DS_Store
